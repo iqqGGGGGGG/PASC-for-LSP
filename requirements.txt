@@ -1,0 +1,8 @@
+# Install the matching PyTorch build first; see README.md.
+torch-geometric==2.8.0
+torch-geometric-signed-directed==1.1.1
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+PyYAML>=6.0
+networkx>=3.0

@@ -1,0 +1,34 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Training outputs and generated caches
+logs/
+Data/cache/
+PASC-H/Data/data_file/*
+!PASC-H/Data/data_file/.gitkeep
+PASC-S/Data/data_file/*
+!PASC-S/Data/data_file/.gitkeep
+*.log
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Test, coverage, and notebook caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+# PASC-S Configuration
+dataset: 'wkr'
+# wkr-DegreeShift-MST
+datapath: 'Data/'
+log_dir: 'logs/'
+batch_size: 8192
+dim_h: 128
+dim_z: 128
+drop_edge_rate: 0.2  # 0.3
+dropout: 0.2 # 0.6
+epochs: 500
+l2reg: 0.005
+lr: 0.0001
+patience: 30
+main_loss: 'bce'  # choices: ['focal', 'bce']
+gpu: 2
+svd_rank: 128
+name: 'PASC-S'

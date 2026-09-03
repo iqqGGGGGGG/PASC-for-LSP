@@ -1,0 +1,20 @@
+# PASC-S Configuration
+# Dataset parameters
+dataset: 'Bitcoin-Alpha'
+# ShortcutShift-MST
+# DegreeShift-MST
+datapath: 'Data/'
+log_dir: 'logs/'
+seed: 42
+gpu: 1
+epochs: 500
+batch_size: 2048
+patience: 30
+lr: 0.0002
+dim_h: 128
+dim_z: 128
+dropout: 0.2
+l2reg: 0.0003
+svd_rank: 128
+drop_edge_rate: 0.1
+name: 'PASC-S'
