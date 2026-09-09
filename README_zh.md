@@ -141,4 +141,14 @@ python train.py --config _config-OTC.yaml --num_runs 5
     booktitle = {IEEE International Conference on Data Mining (ICDM)},
     year={2026}
 }
+
+@misc{gao2026polarityasymmetricstructuralcalibrationlink,
+      title={Polarity-Asymmetric Structural Calibration for Link Sign Prediction}, 
+      author={Qiqi Gao and Wenzhuo Song and Xueyan Liu},
+      year={2026},
+      eprint={2609.05896},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI},
+      url={https://arxiv.org/abs/2609.05896}, 
+}
 ```
